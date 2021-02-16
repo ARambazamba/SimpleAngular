@@ -25,7 +25,7 @@ stages:
       
       - task: PublishBuildArtifacts@1
         inputs:
-          PathtoPublish: 'dist/ngBuild'
+          PathtoPublish: 'dist/SimpleAngular'
           ArtifactName: 'ngapp'
           publishLocation: 'Container'
         displayName: 'Publish Artifacts'
