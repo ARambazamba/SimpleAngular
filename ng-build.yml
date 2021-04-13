@@ -4,7 +4,7 @@ trigger:
     - master
   
 stages:
-- stage: default
+- stage: build
 
   jobs:
     - job: Job
